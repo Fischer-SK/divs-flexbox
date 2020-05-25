@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #555555;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -97,42 +97,95 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #d3d3d3;
   height: 100%;
+  width: 100%;
+
 }
 
 body {
   background-color: #d3d3d3;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
+
+
 }
 
-.wrapper {
-
-  font-weight: 400;
-  display: flex;
-  justify-content: space-between;
-}
-
-.div-1, .div-2, .div-3 {
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
+header,
+footer {
   background-color: #d3d3d3;
-  height: 300px;
-  margin: 150px 0px;
+  height: 80px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+header {
+  color: #c49075;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+main {
+  background-color: #d3d3d3;
+  font-size: 2.9em;
+  font-weight: 500;
+  height: 250px;
+  margin-bottom: 60px;
+  width: 100%;
+
+}
+
+footer {
+  font-size: 2.2em;
+  font-weight: 500;
+}
+
+header, main, footer {
+
   display: flex;
-  width: 30%;
   justify-content: center;
   align-items: center;
 }
 
-.div-1, .div-2 {
-  border-right: solid  1px white;
+.wrapper {
+
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content:space-between;
+}
+
+
+.flex-items {
+line-height: 1.5em;
+font-size: 1.6em;
+background-color: #d3d3d3;
+padding-bottom: 20px;
+padding-right: 10px;
+margin-bottom: 60px;
+width: 30%;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#div-1, #div-2 {
+  border-right: solid  1px #555555;
 
 }
+
+.git,
+ .twitter,
+.linkedin,
+.insta {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 
 
 
